@@ -1,0 +1,7 @@
+
+/TestAutomationFrameworks/packages
+/TestAutomationFrameworks/WebDriverPageObject/bin
+/TestAutomationFrameworks/WebDriverPageObject/obj
+TestAutomationFrameworks/WebDriverPageObject/\.DS_Store
+
+\.DS_Store

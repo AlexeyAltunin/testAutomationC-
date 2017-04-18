@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{4F1FEFC7-C72D-47BA-9714-E4E1BB975A27}|Модульные тесты">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebDriverPageObject/data/invalidCredentials.json">
+    <Files>
+      <File FileName="WebDriverPageObject/tests/TestBase.cs" Line="19" Column="11" />
+      <File FileName="WebDriverPageObject/tests/LoginTestPositive.cs" Line="19" Column="25" />
+      <File FileName="WebDriverPageObject/implementation/ApplicationManager.cs" Line="14" Column="10" />
+      <File FileName="WebDriverPageObject/pages/AnyPage.cs" Line="19" Column="10" />
+      <File FileName="WebDriverPageObject/implementation/LoginHelper.cs" Line="11" Column="13" />
+      <File FileName="WebDriverPageObject/pages/PageManager.cs" Line="16" Column="48" />
+      <File FileName="WebDriverPageObject/pages/InternalPage.cs" Line="16" Column="36" />
+      <File FileName="WebDriverPageObject/pages/LoginPage.cs" Line="23" Column="21" />
+      <File FileName="WebDriverPageObject/pages/UserProfilePage.cs" Line="7" Column="30" />
+      <File FileName="WebDriverPageObject/implementation/NavigationHelper.cs" Line="11" Column="40" />
+      <File FileName="WebDriverPageObject/tests/LoginTestNegative.cs" Line="1" Column="1" />
+      <File FileName="WebDriverPageObject/tests/Finalizer.cs" Line="15" Column="2" />
+      <File FileName="WebDriverPageObject/WebDriverFactory.cs" Line="172" Column="13" />
+      <File FileName="WebDriverPageObject/data/validCredentials.json" Line="4" Column="18" />
+      <File FileName="WebDriverPageObject/data/invalidCredentials.json" Line="4" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alexey/Developer/testAutomationC-/TestAutomationFrameworks/WebDriverPageObject/tests/TestBase.cs" relfile="WebDriverPageObject/tests/TestBase.cs" line="16" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebDriverPageObject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
