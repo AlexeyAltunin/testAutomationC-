@@ -3,5 +3,9 @@
 /TestAutomationFrameworks/WebDriverPageObject/bin
 /TestAutomationFrameworks/WebDriverPageObject/obj
 TestAutomationFrameworks/WebDriverPageObject/\.DS_Store
-
+/UiAutomationFramework/.vs
+/UiAutomationFramework/bin
+/UiAutomationFramework/obj
+/UiAutomationFramework/packages
+UiAutomationFramework/\.DS_Store
 \.DS_Store
