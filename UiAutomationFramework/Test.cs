@@ -2,6 +2,7 @@
 using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Remote;
 
 namespace UiAutomationFramework
 {
@@ -11,9 +12,13 @@ namespace UiAutomationFramework
 		[Test()]
 		public void TestCase()
 		{
-			IWebDriver driver = new ChromeDriver();
-			//Firefox's proxy driver executable is in a folder already
-			//  on the host system's PATH environment variable.
+			IWebDriver driver;
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			capabilities = new DesiredCapabilities("chrome", "66.0", new Platform(PlatformType.Any));
+			capabilities.SetCapability("enableVNC", true);
+			//driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), capabilities);
+			driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+
 			driver.Navigate().GoToUrl("http://saucelabs.com");
 			IWebElement header = driver.FindElement(By.Id("site - header"));
 	
